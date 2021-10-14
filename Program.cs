@@ -6,7 +6,10 @@ namespace ConsoleClassPessoa
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! ");
+            Pessoa pessoa = new Pessoa();
+            pessoa.nome = "Thiago";
+            pessoa.idade = 32;
+
         }
     }
 }
